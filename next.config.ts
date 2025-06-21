@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
                 destination: "/sign-in", // 🎯 where to redirect
                 permanent: true,        // 🔁 use 308 (permanent)
             },
+            {
+                source: "/signup",
+                destination: "/sign-up",
+                permanent: true,
+            },
         ];
     },
 };
